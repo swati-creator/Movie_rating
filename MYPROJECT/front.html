@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie review and rating </title>
+    
+</head>
+<style>
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url("https://pro.fontawesome.com/releases/v5.10.0/css/all.css");
+*{
+    box-sizing: border-box;
+    padding: 2px;
+    margin: 0px;
+}
+
+
+
+body{
+    background-image: url(./IMAGE/80fac3fbc022dd71e36053a3e083c626.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Roboto,Arial,sans-serif;
+    width: 100%;
+    letter-spacing: 0;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+.explore{
+    zoom: 187%;
+
+  
+}
+
+#headerBlock{
+    background-color:black;
+    height: 56px;
+}
+
+#headerBlock article{
+    display: flex;
+    width: 70%;
+    height: 56px;  
+    margin: 0 auto;
+    align-items:center; 
+}
+
+.leftBlock{
+    width: 70%;
+    display: flex;
+}
+
+.logoBlock{
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+}
+
+.searchBlock{
+width: 85%;
+}
+
+.parentLogo img
+{
+    width: 75px;
+}
+
+.logoBlock a{
+    text-decoration: none;
+    font-size:12px;
+    font-style: italic;
+    text-transform: capitalize;
+    padding: 0%;
+}
+
+.childLogo img{
+    width: 10px;
+}
+
+/* SEARCH BLOCK START HERE*/
+.searchBlock form{
+    display: flex;
+}
+
+.searchBlock form input{
+    width: 95%;
+    height: 40px;
+    padding: 0 0 0 30px;
+    border-radius: 3px;
+    border: none;
+}
+
+
+.searchIcon{
+    position: relative;
+}
+
+.searchBlock i{
+    font-size: 20px;
+    font-weight: 600;
+    position: absolute;
+    color: #2874f0;
+    top: 12px;
+    left: -35px;
+}
+
+.carticon{
+    display: flex;
+    color: white;
+}
+
+/* right block header */
+.rightBlock{
+    width: 30%;
+    display: flex;  
+}
+
+.rightBlock > ul{
+    list-style: none;
+    display: flex;
+}
+
+.rightBlock > ul li{
+    margin: 0 30px;
+}
+
+.rightBlock > ul li a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.rightBlock .login{
+    background-color: #fff;
+    color: #2874f0;
+    padding: 5px 40px;
+    font-weight: bold;
+
+}
+
+
+
+#offerBlock{
+    background-color: transparent;
+   
+}
+#offerBlock article{
+    flex: 1;
+    display: flex;
+    margin: auto 5%;
+}
+
+#offerBlock article div{
+    display: flex;
+    width: 90%;
+    position: relative;
+    background-color:transparent;
+    margin: 2px;
+    flex-direction: column;
+    text-align: center;
+    font-size: small;
+    text-transform: capitalize;
+}
+
+#offerBlock span img{
+    height: 300px;
+}
+
+#offerBlock a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+/* <!-- -------------offer block ends here----------------- --> */
+
+
+</style>
+
+<body>
+    <section id="headerBlock">
+        <article>
+
+            <div class="leftBlock">
+                <div class="logoBlock">
+                    <a href="#" class="childLogo">
+                        <span class="explore" style="font-size: larger; zoom: 20%;">Movies</span>
+                    </a>
+                </div>
+
+                <div class="searchBlock">
+                    <form action="#" method="GET">
+                        <input type="search" placeholder="search for movies">
+                        <span class="searchIcon"><i class="fas fa-search"></i></span>
+                    </form>
+                </div>
+            </div>
+
+            <div class="rightBlock">
+
+                <ul>   
+                    <!-- li*3>a{login} -->
+
+                    <li><a href="./index.html" class="login">HOME</a>
+                        
+                    </li>
+                    
+                </ul>
+
+            </div>
+        </article>
+    </section>
+
+
+    <section id="offerBlock">
+        <article>
+            <div>
+                <span>
+                    <a href="./rating.html"><img src="./IMAGE/1 (1).jpg" alt=""></a> 
+                </span>
+                <span>
+                    <a href="./rating.html">Shukra</a>
+                </span>
+            </div>
+
+            <div>                
+                <span>
+                    <img src="./IMAGE/1 (2).jpg" alt="">
+                </span>
+                <span>
+                    <a href="#">Kuriya Java Baapu Pareshan</a>
+                </span>
+            </div>
+
+            <div>
+                <span>
+                    <img src="./IMAGE/1 (3).jpg" alt="">
+                </span>
+                <span>
+                    <a href="#">True</a>
+                </span>
+            </div>
+
+            <div>
+                <span>
+                    <img src="./IMAGE/1 (4).jpg" alt="">
+                </span>
+                <span>
+                    <a href="#">The Disciple</a>
+                </span>
+            </div>
+            
+            <div>
+                <span>
+                    <img src="./IMAGE/1 (5).jpg" alt="">
+                </span>
+                <span>
+                    <a href="#">Roohi</a>
+                </span>
+            </div>
+
+            
+        </article>
+    </section>
+
+    <section id="offerBlock">
+    <article>
+    <div>
+        <span>
+           <img src="./IMAGE/1 (6).jpg" alt="">
+        </span>
+        <span>
+            <a href="#">Rangada</a>
+        </span>
+    </div>
+
+
+    <div>
+        <span>
+            <img src="./IMAGE/1 (7).jpg" alt="">
+        </span>
+        <span>
+            <a href="#">Amruth Apartments</a>
+        </span>
+    </div>
+
+    <div>
+        <span>
+            <img src="./IMAGE/1 (8).jpg" alt="">
+        </span>
+        <span>
+            <a href="#">Without Remorse</a>
+        </span>
+    </div>
+
+    <div>
+        <span><img src="./IMAGE/1 (9).jpg" alt=""></span>
+        <span>
+            <a href="#">Sulthan</a>
+        </span>
+    </div>
+
+    <div>
+        <span>
+            <img src="./IMAGE/1 (10).jpg" alt="">
+        </span>
+        <span>
+            <a href="#">Minari</a>
+        </span>
+    </div>
+</article>
+</section>
+
+</body>
+</html>

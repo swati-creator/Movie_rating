@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title></title>
+  <link rel="stylesheet" href="./rating.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+
+  <style>
+      * {
+    margin: 0;
+    padding: 0;
+  }
+
+  body{
+    background-image: url(./IMAGE/80fac3fbc022dd71e36053a3e083c626.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    ba
+    width: 100%;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+  textarea {
+    font-family: sans-serif;
+    font-size: 1.2em;
+    width: 100%;
+}
+
+  .rating-css {
+    height: 93px;
+    width: 394px;
+    background: black;
+    border: 4px;
+    padding: 15px;
+}
+
+  .rating-css div {
+    color:#f8d824;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 800;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 20px 0;
+  }
+  .rating-css input {
+    display: none;
+  }
+  .rating-css input + label {
+    font-size: 60px;
+    text-shadow: 1px 1px 0 #7227eb;
+    cursor: pointer;
+  }
+  .rating-css input:checked + label ~ label {
+    color: #f5faf5;
+  }
+  .rating-css label:active {
+    transform: scale(0.8);
+    transition: 0.3s ease;
+  }
+  /*This is my youtube channel link*/
+  a {
+    position: absolute;
+    bottom: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: sans-serif;
+    right: 20px;
+    color: #000;
+  }
+  a:hover {
+    color: red;
+  }
+  table {
+    align-items: center;
+    margin-left: 466px;
+    margin-top: 170px;
+}
+h6{
+    
+ 
+    height: 56px;
+    font-size: 31px;
+
+}
+  </style>
+</head>
+
+<body>
+  
+    <table border="1">
+
+        <tr><td><h6>Rate Your Movie and Comment</h6></td></tr>
+
+        <tr><td><div class="rating-css">
+    
+            <div class="star-icon">
+              <input type="radio" name="rating1" id="rating1">
+              <label for="rating1" class="fa fa-star"></label>
+              <input type="radio" name="rating1" id="rating2">
+              <label for="rating2" class="fa fa-star"></label>
+              <input type="radio" name="rating1" id="rating3">
+              <label for="rating3" class="fa fa-star"></label>
+              <input type="radio" name="rating1" id="rating4">
+              <label for="rating4" class="fa fa-star"></label>
+              <input type="radio" name="rating1" id="rating5">
+              <label for="rating5" class="fa fa-star"></label>
+            </div>
+          </div>
+        
+          </td></tr>
+
+
+            <tr><td>
+                <section>
+                <div>
+                <form action="#" method="post">
+                  <div>
+                  <textarea name="comments" id="comments" style="font-family:sans-serif;font-size:1.2em;">
+                  
+                  </textarea>
+                  </div>
+                  <center><input type="submit" value="Refresh"><button> <a href="./front.html">Back</a></button></center>
+                  </form>
+              </div>
+              </section></td></tr>
+    </table>
+   
+
+</body>
+
+</html>
